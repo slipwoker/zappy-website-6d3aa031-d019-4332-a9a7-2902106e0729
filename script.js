@@ -1457,6 +1457,28 @@ window.onload = function() {
 })();
 
 
+/* Added Component Script */
+// Optional: Add intersection observer for entrance animations
+document.addEventListener('DOMContentLoaded', () => {
+  const heroSection = document.querySelector('.dogwoker-hero');
+  if (!heroSection) return;
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        heroSection.style.opacity = '1';
+        heroSection.style.transform = 'translateY(0)';
+      }
+    });
+  }, { threshold: 0.1 });
+
+  heroSection.style.opacity = '0';
+  heroSection.style.transform = 'translateY(20px)';
+  heroSection.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+  observer.observe(heroSection);
+});
+
+
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
   try {
