@@ -7,37 +7,37 @@
 ## Pages
 
 ### בית
-https://example.com
+https://dogwoker-inc.zappy5.app
 מחפשים שירותי כלבים מקצועיים ואמינים? Dodwoker בעמ דואגים לחבר הכי טוב שלכם לטיולים מהנים, פעילות גופנית מותאמת ואהבה אין-סופית. לחצו עכשיו ופנקו את הכלב שלכם!
 
 ### שירותים
-https://example.com/services
+https://dogwoker-inc.zappy5.app/services
 מטיולי בוקר ממריצים ועד השגחה חמה – גלו את מגוון שירותי הכלבים שלנו. בין אם אתם צריכים טיול יומי או שירותי שמרטפות לחיות מחמד, אנחנו כאן כדי לתת מענה מושלם. הצטרפו עוד היום!
 
 ### אודות
-https://example.com/about
+https://dogwoker-inc.zappy5.app/about
 ב-Dodwoker בעמ אנחנו לא רק מטיילים עם כלבים – אנחנו בונים קשרים של אמון ודאגה אמיתית. קראו על הסיפור שלנו, הערכים והתשוקה שמניעה אותנו לספק שירותי כלבים יוצאי דופן בכל יום מחדש.
 
 ### צור קשר
-https://example.com/contact
+https://dogwoker-inc.zappy5.app/contact
 מוכנים לתת לכלב שלכם את הטיול שהוא ראוי לו? צרו קשר עם Dodwoker בעמ עוד היום! השאירו הודעה, התקשרו או שלחו אימייל – אנחנו מתרגשים לשמוע מכם ולהתחיל לצעוד יחד בדרך חדשה.
 
 ### תודה שפניתם | Dodwoker בעמ
-https://example.com/thank-you
+https://dogwoker-inc.zappy5.app/thank-you
 Dodwoker בעמ - תודה שפניתם | Dodwoker בעמ
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://dogwoker-inc.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://dogwoker-inc.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://dogwoker-inc.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -50,8 +50,8 @@ Information about WCAG compliance and accessibility features.
 - Address: הרציה קוק יוני נתניהו, קרית ארבע, איוש, 9010000, ישראל
 
 ### Contact form
-- URL: https://example.com/contact
-- Endpoint: https://example.com/api/email/contact-form
+- URL: https://dogwoker-inc.zappy5.app/contact
+- Endpoint: https://dogwoker-inc.zappy5.app/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -83,6 +83,6 @@ Pet Services
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://example.com/sitemap.xml
-- Robots: https://example.com/robots.txt
-- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Sitemap (XML): https://dogwoker-inc.zappy5.app/sitemap.xml
+- Robots: https://dogwoker-inc.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://dogwoker-inc.zappy5.app/llms-full.txt
