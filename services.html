@@ -352,22 +352,22 @@
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
     <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
-      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
   
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="+972527701418" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
 
   <div class="nav-container">
     <div class="nav-right-group"><div class="nav-brand">
-      <a href="/" class="logo-link"><img class="logo" src="/assets/site---------image-1.webp" alt="Dodwoker בעמ"></a>
+      <a href="/" class="logo-link"><img class="logo" src="/assets/site---------image-1.webp" alt="Dogwoker בעמ"></a>
     </div><ul class="nav-menu" id="navMenu"><li><a href="/">בית</a></li><li><a href="/services">שירותים</a></li><li><a href="/about">אודות</a></li><li class="mobile-contact-link nav-cta-mobile-item"><a href="/contact" class="nav-cta-btn">צור קשר</a></li></ul></div>
     
     
@@ -818,7 +818,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '+972527701418';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -840,7 +840,7 @@
     <!-- Header Block -->
     <div class="services-intro-header">
       <h2 class="services-intro-title">הוצאת כלבים מקצועית<br>בקצב העיר</h2>
-      <p class="services-intro-subtitle">Dodwoker בעמ מציעה שירותי הוצאת כלבים אמינים, מותאמים אישית, ושקופים לחלוטין. אנחנו דואגים שהחבר הכי טוב שלך יקבל את ההליכה היומית האיכותית שמגיעה לו, גם כשאתה עסוק.</p>
+      <p class="services-intro-subtitle">Dogwoker בעמ מציעה שירותי הוצאת כלבים אמינים, מותאמים אישית, ושקופים לחלוטין. אנחנו דואגים שהחבר הכי טוב שלך יקבל את ההליכה היומית האיכותית שמגיעה לו, גם כשאתה עסוק.</p>
     </div>
 
     <!-- Main Grid: Cards + Image -->
@@ -849,7 +849,7 @@
       <div class="services-intro-cards">
         <div class="service-card">
           <div class="service-card-icon">
-            <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
           </div>
           <div class="service-card-content">
             <h3 class="service-card-title">הליכה יומית קבועה</h3>
@@ -858,7 +858,7 @@
         </div>
         <div class="service-card">
           <div class="service-card-icon">
-            <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
           </div>
           <div class="service-card-content">
             <h3 class="service-card-title">הליכה חד-פעמית</h3>
@@ -867,7 +867,7 @@
         </div>
         <div class="service-card">
           <div class="service-card-icon">
-            <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
           </div>
           <div class="service-card-content">
             <h3 class="service-card-title">הליכה זוגית</h3>
@@ -876,7 +876,7 @@
         </div>
         <div class="service-card">
           <div class="service-card-icon">
-            <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+            <svg data-element-type="icon" data-icon-type="svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
           </div>
           <div class="service-card-content">
             <h3 class="service-card-title">חבילת שבועית</h3>
@@ -898,14 +898,14 @@
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="routeGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stop-color="#00D4FF" stop-opacity="0"/>
-          <stop offset="20%" stop-color="#00D4FF" stop-opacity="0.8"/>
-          <stop offset="80%" stop-color="#00D4FF" stop-opacity="0.8"/>
-          <stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/>
+          <stop offset="0%" stop-color="#00D4FF" stop-opacity="0"></stop>
+          <stop offset="20%" stop-color="#00D4FF" stop-opacity="0.8"></stop>
+          <stop offset="80%" stop-color="#00D4FF" stop-opacity="0.8"></stop>
+          <stop offset="100%" stop-color="#00D4FF" stop-opacity="0"></stop>
         </linearGradient>
       </defs>
-      <path d="M0,80 L0,75 Q50,70 100,75 T200,75 Q250,80 300,75 T400,75 Q450,70 500,75 T600,75 Q650,80 700,75 T800,75 Q850,70 900,75 T1000,75 Q1050,80 1100,75 T1200,75 L1200,80 Z" fill="var(--bg-light)"/>
-      <path d="M0,75 Q100,70 200,75 Q300,80 400,75 Q500,70 600,75 Q700,80 800,75 Q900,70 1000,75 Q1100,80 1200,75" stroke="url(#routeGradient)" stroke-width="2" fill="var(--bg-light)" stroke-dasharray="8,6"/>
+      <path d="M0,80 L0,75 Q50,70 100,75 T200,75 Q250,80 300,75 T400,75 Q450,70 500,75 T600,75 Q650,80 700,75 T800,75 Q850,70 900,75 T1000,75 Q1050,80 1100,75 T1200,75 L1200,80 Z" fill="var(--bg-light)"></path>
+      <path d="M0,75 Q100,70 200,75 Q300,80 400,75 Q500,70 600,75 Q700,80 800,75 Q900,70 1000,75 Q1100,80 1200,75" stroke="url(#routeGradient)" stroke-width="2" fill="var(--bg-light)" stroke-dasharray="8,6"></path>
     </svg>
   </div>
 </section>
@@ -970,13 +970,13 @@
         <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
             <defs>
                 <linearGradient id="process-divider-fade" x1="0%" y1="0%" x2="100%" y2="0%">
-                    <stop offset="0%" stop-color="var(--bg-dark)" stop-opacity="1"/>
-                    <stop offset="100%" stop-color="var(--bg-dark)" stop-opacity="1"/>
+                    <stop offset="0%" stop-color="var(--bg-dark)" stop-opacity="1"></stop>
+                    <stop offset="100%" stop-color="var(--bg-dark)" stop-opacity="1"></stop>
                 </linearGradient>
             </defs>
-            <path d="M0,80 L0,25 Q150,35 300,20 Q450,5 600,15 Q750,25 900,10 Q1050,-5 1200,20 L1200,80 Z" fill="var(--bg-dark)"/>
+            <path d="M0,80 L0,25 Q150,35 300,20 Q450,5 600,15 Q750,25 900,10 Q1050,-5 1200,20 L1200,80 Z" fill="var(--bg-dark)"></path>
             <!-- Route Line continuing into next section -->
-            <path d="M0,45 Q150,55 300,40 Q450,25 600,35 Q750,45 900,30 Q1050,15 1200,40" fill="var(--bg-dark)" stroke="var(--primary)" stroke-width="2" stroke-dasharray="8 8" opacity="0.4"/>
+            <path d="M0,45 Q150,55 300,40 Q450,25 600,35 Q750,45 900,30 Q1050,15 1200,40" fill="var(--bg-dark)" stroke="var(--primary)" stroke-width="2" stroke-dasharray="8 8" opacity="0.4"></path>
         </svg>
     </div>
 </section>
@@ -990,7 +990,7 @@
     <div class="services-pricing-style-section__cards">
       <article class="services-pricing-style-section__card">
         <div class="services-pricing-style-section__card-icon">
-          <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path></svg>
         </div>
         <h3>הליכה מזדמנת</h3>
         <p>פתרון גמיש לבעלי כלבים שזקוקים לעזרה נקודתית. ההליכה כוללת מסלול מותאם אישית, זמן משחק ומענה לצרכים הבסיסיים של הכלב. מושלם לימים עמוסים במיוחד או כשאתם לא זמינים.</p>
@@ -1003,7 +1003,7 @@
       <article class="services-pricing-style-section__card services-pricing-style-section__card--featured">
         <div class="services-pricing-style-section__card-badge">הכי פופולרי</div>
         <div class="services-pricing-style-section__card-icon">
-          <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
         </div>
         <h3>מסלול שבועי קבוע</h3>
         <p>שגרת הליכות שבועית המבטיחה שהכלב שלכם יקבל את הפעילות הגופנית והמנטלית לה הוא זקוק. המסלול כולל משחקי חשיבה, סוציאליזציה מבוקרת ומעקב אחר בריאות הכלב לאורך זמן.</p>
@@ -1015,7 +1015,7 @@
       </article>
       <article class="services-pricing-style-section__card">
         <div class="services-pricing-style-section__card-icon">
-          <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
         </div>
         <h3>טיפול פרימיום אישי</h3>
         <p>חבילת הפרימיום שלנו מציעה יחס אישי ומותאם במיוחד לצרכים הייחודיים של הכלב שלכם. ההליכות כוללות אימון התנהגותי בסיסי, תזונה מותאמת לייעוץ וזמינות טלפונית לכל שאלה.</p>
@@ -1031,12 +1031,12 @@
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <radialGradient id="pinkHaze" cx="50%" cy="0%" r="80%">
-          <stop offset="0%" stop-color="var(--secondary)" stop-opacity="0.25"/>
-          <stop offset="100%" stop-color="var(--secondary)" stop-opacity="0"/>
+          <stop offset="0%" stop-color="var(--secondary)" stop-opacity="0.25"></stop>
+          <stop offset="100%" stop-color="var(--secondary)" stop-opacity="0"></stop>
         </radialGradient>
       </defs>
-      <path d="M0,80 L0,20 Q50,10 100,22 T200,15 Q250,25 300,12 T400,20 Q450,10 500,24 T600,14 Q650,22 700,10 T800,18 Q850,12 900,22 T1000,15 Q1050,20 1100,10 T1200,18 L1200,80 Z" fill="var(--bg-light)"/>
-      <path d="M0,80 L0,20 Q50,10 100,22 T200,15 Q250,25 300,12 T400,20 Q450,10 500,24 T600,14 Q650,22 700,10 T800,18 Q850,12 900,22 T1000,15 Q1050,20 1100,10 T1200,18 L1200,80 Z" fill="var(--bg-light)"/>
+      <path d="M0,80 L0,20 Q50,10 100,22 T200,15 Q250,25 300,12 T400,20 Q450,10 500,24 T600,14 Q650,22 700,10 T800,18 Q850,12 900,22 T1000,15 Q1050,20 1100,10 T1200,18 L1200,80 Z" fill="var(--bg-light)"></path>
+      <path d="M0,80 L0,20 Q50,10 100,22 T200,15 Q250,25 300,12 T400,20 Q450,10 500,24 T600,14 Q650,22 700,10 T800,18 Q850,12 900,22 T1000,15 Q1050,20 1100,10 T1200,18 L1200,80 Z" fill="var(--bg-light)"></path>
     </svg>
   </div>
 </section>
@@ -1105,7 +1105,7 @@
   <div class="footer-container">
     <div class="footer-grid">
       <div class="footer-col footer-company-col">
-        <img src="/assets/dodwoker-pet-services-logo.webp" alt="Dodwoker בעמ" class="logo">
+        <img src="/assets/dodwoker-pet-services-logo.webp" alt="Dogwoker בעמ" class="logo">
         <p class="footer-tagline">השותף המושלם לחיים עירוניים עם הכלב שלך. טיולים, אילוף וליווי מקצועי – אנחנו דואגים לחבר הכי טוב שלך.</p>
       </div>
       <div class="footer-col footer-links-col">
@@ -1122,35 +1122,33 @@
         <ul class="footer-contact">
           <li>
             <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-            <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
+            <span class="contact-text"><a href="mailto:rplmykl912@gmail.com">rplmykl912@gmail.com</a></span>
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone"></i></span>
-            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+            <span class="contact-text"><a href="tel:+972527701418">+972527701418</a></span>
           </li>
-          <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-            <span class="contact-text">[business_address]</span></a></li>
+          <li><a href="https://www.google.com/maps/search/?api=1&amp;query=%D7%94%D7%A8%D7%A6%D7%99%D7%94%20%D7%A7%D7%95%D7%A7%20%D7%99%D7%95%D7%A0%D7%99%20%D7%A0%D7%AA%D7%A0%D7%99%D7%94%D7%95%2C%20%D7%A7%D7%A8%D7%99%D7%AA%20%D7%90%D7%A8%D7%91%D7%A2%2C%20%D7%90%D7%99%D7%95%D7%A9%2C%209010000%2C%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C" target="_blank" rel="noopener noreferrer"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+            <span class="contact-text">הרציה קוק יוני נתניהו, קרית ארבע, איוש, 9010000, ישראל</span></a></li>
         </ul>
       </div>
       <div class="footer-col footer-hours-col">
         <h4>שעות פעילות</h4>
-        <ul class="footer-hours">
-          <li><a href="/"><span class="hours-day">ימים א'–ה'</span> <span class="hours-time">09:00–18:00</span></a></li>
-          <li><a href="/"><span class="hours-day">יום ו'</span> <span class="hours-time">09:00–13:00</span></a></li>
-          <li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li>
-        </ul>
+        <ul class="footer-hours"><li><a href="/"><span class="hours-day">יום א’</span> <span class="hours-time">סגור</span></a></li>
+<li><a href="/"><span class="hours-day">ימים ב’–ו’</span> <span class="hours-time">09:00–17:00</span></a></li>
+<li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
       </div>
       <div class="footer-col footer-social-col">
         <h4>עקבו אחרינו</h4>
         <div class="footer-social">
-          <a href="#" aria-label="Facebook" data-zappy-social-placeholder="true"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" aria-label="Instagram" data-zappy-social-placeholder="true"><i class="fab fa-instagram"></i></a>
-          <a href="#" aria-label="WhatsApp" data-zappy-social-placeholder="true"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" aria-label="Facebook" data-zappy-social-placeholder="true" style="display:none !important;"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram" data-zappy-social-placeholder="true" style="display:none !important;"><i class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/972500000000" aria-label="WhatsApp" data-zappy-social-placeholder="true"><i class="fab fa-whatsapp"></i></a>
         </div>
       </div>
     </div>
     <div class="footer-bottom">
-      <p class="footer-copyright">© 2026 Dodwoker בעמ. כל הזכויות שמורות.</p>
+      <p class="footer-copyright">© 2026 Dogwoker בעמ. כל הזכויות שמורות.</p>
       <div class="footer-legal">
         <a href="/privacy">מדיניות פרטיות</a>
         <a href="/terms">תנאי שימוש</a>
@@ -1161,7 +1159,7 @@
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/972500000000" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   

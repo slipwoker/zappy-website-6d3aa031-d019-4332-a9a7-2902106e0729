@@ -352,22 +352,22 @@
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
     <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
-      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
   
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="+972527701418" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
 
   <div class="nav-container">
     <div class="nav-right-group"><div class="nav-brand">
-      <a href="/" class="logo-link"><img class="logo" src="/assets/site-------image-1.webp" alt="Dodwoker בעמ"></a>
+      <a href="/" class="logo-link"><img class="logo" src="/assets/site-------image-1.webp" alt="Dogwoker בעמ"></a>
     </div><ul class="nav-menu" id="navMenu"><li><a href="/">בית</a></li><li><a href="/services">שירותים</a></li><li><a href="/about">אודות</a></li><li class="mobile-contact-link nav-cta-mobile-item"><a href="/contact" class="nav-cta-btn">צור קשר</a></li></ul></div>
     
     
@@ -818,7 +818,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '+972527701418';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -840,25 +840,25 @@
         <!-- Content Column (Right in RTL) -->
         <div class="about-story-section__content">
             <h2 class="about-story-section__heading">הסיפור שלנו – אהבה, ביטחון ומסלול אחד בטוח</h2>
-            <p class="about-story-section__paragraph">בלב העיר, בין הרחובות הסואנים ובין הפארקים הירוקים, נולד הרעיון ל-Dodwoker בעמ. רצינו ליצור שירות הוצאת כלבים שאינו מסתכם רק ב"טיול", אלא מעניק חוויה של ביטחון, רוגע וחיבור אמיתי. אנחנו יודעים שחיית המחמד שלכם היא חלק בלתי נפרד מהמשפחה, ולכן אנחנו מתייחסים לכל כלב באחריות ובמסירות אינסופית.</p>
+            <p class="about-story-section__paragraph">בלב העיר, בין הרחובות הסואנים ובין הפארקים הירוקים, נולד הרעיון ל-Dogwoker בעמ. רצינו ליצור שירות הוצאת כלבים שאינו מסתכם רק ב"טיול", אלא מעניק חוויה של ביטחון, רוגע וחיבור אמיתי. אנחנו יודעים שחיית המחמד שלכם היא חלק בלתי נפרד מהמשפחה, ולכן אנחנו מתייחסים לכל כלב באחריות ובמסירות אינסופית.</p>
             <p class="about-story-section__paragraph">הצוות שלנו מורכב מאוהבי כלבים מושבעים שעברו הכשרה מקצועית בהתנהגות כלבים, עזרה ראשונה וטיפול במצבי לחץ. אנחנו לא רק מוציאים כלבים – אנחנו דואגים שהם יחזרו הביתה מסופקים, רגועים ומאושרים. בין אם זה טיול בוקר אנרגטי, ריצת צהריים או טיול ערב שקט, אנחנו מתאימים את הקצב והמסלול לצרכים האישיים של כלבכם.</p>
             <div class="about-story-section__values">
                 <div class="about-story-section__value-item">
                     <svg class="about-story-section__value-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
-                        <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="1.5"/>
-                        <path d="M8 12.5L10.5 15L16 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="1.5"></path>
+                        <path d="M8 12.5L10.5 15L16 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                     </svg>
                     <span>אמינות ללא פשרות</span>
                 </div>
                 <div class="about-story-section__value-item">
                     <svg class="about-story-section__value-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
-                        <path d="M4.31804 6.31804C2.56066 8.07538 2.56066 10.9246 4.31804 12.682L12 20.364L19.682 12.682C21.4393 10.9246 21.4393 8.07538 19.682 6.31804C17.9246 4.56066 15.0754 4.56066 13.318 6.31804L12 7.63609L10.682 6.31804C8.92462 4.56066 6.07538 4.56066 4.31804 6.31804Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M4.31804 6.31804C2.56066 8.07538 2.56066 10.9246 4.31804 12.682L12 20.364L19.682 12.682C21.4393 10.9246 21.4393 8.07538 19.682 6.31804C17.9246 4.56066 15.0754 4.56066 13.318 6.31804L12 7.63609L10.682 6.31804C8.92462 4.56066 6.07538 4.56066 4.31804 6.31804Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                     </svg>
                     <span>טיפול חם ואישי</span>
                 </div>
                 <div class="about-story-section__value-item">
                     <svg class="about-story-section__value-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
-                        <path d="M12 15L15 18L21 12M21 12V17M21 12H16M3 12H8M3 12V7M3 12L9 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12 15L15 18L21 12M21 12V17M21 12H16M3 12H8M3 12V7M3 12L9 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                     </svg>
                     <span>מסלולים מותאמים אישית</span>
                 </div>
@@ -882,13 +882,13 @@
         <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
             <defs>
                 <linearGradient id="routeGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                    <stop offset="0%" stop-color="var(--primary)" stop-opacity="0.8"/>
-                    <stop offset="50%" stop-color="var(--secondary)" stop-opacity="0.5"/>
-                    <stop offset="100%" stop-color="var(--bg-dark)" stop-opacity="0"/>
+                    <stop offset="0%" stop-color="var(--primary)" stop-opacity="0.8"></stop>
+                    <stop offset="50%" stop-color="var(--secondary)" stop-opacity="0.5"></stop>
+                    <stop offset="100%" stop-color="var(--bg-dark)" stop-opacity="0"></stop>
                 </linearGradient>
             </defs>
-            <path d="M0,120 L0,60 Q80,30 160,55 T320,40 Q400,50 480,35 T640,45 Q720,30 800,50 T960,35 Q1040,45 1120,30 T1200,40 L1200,120 Z" fill="var(--bg-light)"/>
-            <path d="M0,120 L0,58 Q80,28 160,53 T320,38 Q400,48 480,33 T640,43 Q720,28 800,48 T960,33 Q1040,43 1120,28 T1200,38" fill="var(--bg-light)" stroke="url(#routeGradient)" stroke-width="3"/>
+            <path d="M0,120 L0,60 Q80,30 160,55 T320,40 Q400,50 480,35 T640,45 Q720,30 800,50 T960,35 Q1040,45 1120,30 T1200,40 L1200,120 Z" fill="var(--bg-light)"></path>
+            <path d="M0,120 L0,58 Q80,28 160,53 T320,38 Q400,48 480,33 T640,43 Q720,28 800,48 T960,33 Q1040,43 1120,28 T1200,38" fill="var(--bg-light)" stroke="url(#routeGradient)" stroke-width="3"></path>
         </svg>
     </div>
 </section>
@@ -899,7 +899,7 @@
       <span class="about-values-section__tag" style="color: #1A1A1A !important">הערכים שלנו</span>
       <h2 class="about-values-section__title">הבטחה אמיצה לכל טיול</h2>
       <p class="about-values-section__description" style="color: #1A1A1A !important">
-        Dodwoker בעמ נבנתה על עקרונות של אמון, עקביות ודאגה אמיתית לכל כלב. אנחנו לא רק מוציאים כלבים — אנחנו שותפים לשגרה הבריאה והמאושרת של חיית המחמד שלכם.
+        Dogwoker בעמ נבנתה על עקרונות של אמון, עקביות ודאגה אמיתית לכל כלב. אנחנו לא רק מוציאים כלבים — אנחנו שותפים לשגרה הבריאה והמאושרת של חיית המחמד שלכם.
       </p>
     </div>
 
@@ -907,8 +907,8 @@
       <article class="about-values-section__card">
         <div class="about-values-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
         </div>
         <h3 class="about-values-section__card-title">אמינות מוחלטת</h3>
@@ -920,8 +920,8 @@
       <article class="about-values-section__card">
         <div class="about-values-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M4.5 12.75L12 18.75L19.5 12.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M12 18.75V5.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M4.5 12.75L12 18.75L19.5 12.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M12 18.75V5.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
         </div>
         <h3 class="about-values-section__card-title">שקיפות מלאה</h3>
@@ -933,8 +933,8 @@
       <article class="about-values-section__card">
         <div class="about-values-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M15.182 15.182C16.364 13.999 17 12.364 17 10.5C17 6.909 14.091 4 10.5 4C6.909 4 4 6.909 4 10.5C4 14.091 6.909 17 10.5 17C12.364 17 13.999 16.364 15.182 15.182ZM15.182 15.182L20 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M10.5 13.5C12.1569 13.5 13.5 12.1569 13.5 10.5C13.5 8.84315 12.1569 7.5 10.5 7.5C8.84315 7.5 7.5 8.84315 7.5 10.5C7.5 12.1569 8.84315 13.5 10.5 13.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M15.182 15.182C16.364 13.999 17 12.364 17 10.5C17 6.909 14.091 4 10.5 4C6.909 4 4 6.909 4 10.5C4 14.091 6.909 17 10.5 17C12.364 17 13.999 16.364 15.182 15.182ZM15.182 15.182L20 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M10.5 13.5C12.1569 13.5 13.5 12.1569 13.5 10.5C13.5 8.84315 12.1569 7.5 10.5 7.5C8.84315 7.5 7.5 8.84315 7.5 10.5C7.5 12.1569 8.84315 13.5 10.5 13.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
         </div>
         <h3 class="about-values-section__card-title">תשומת לב אישית</h3>
@@ -949,12 +949,12 @@
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="aboutValuesRimLight" x1="0%" y1="0%" x2="0%" y2="100%">
-          <stop offset="0%" stop-color="var(--primary)" stop-opacity="0.6"/>
-          <stop offset="100%" stop-color="var(--primary)" stop-opacity="0"/>
+          <stop offset="0%" stop-color="var(--primary)" stop-opacity="0.6"></stop>
+          <stop offset="100%" stop-color="var(--primary)" stop-opacity="0"></stop>
         </linearGradient>
       </defs>
-      <path d="M0,80 L0,25 Q60,18 120,28 T240,22 Q300,30 360,20 T480,26 Q540,18 600,28 T720,22 Q780,30 840,20 T960,26 Q1020,18 1080,28 T1200,22 L1200,80 Z" fill="#0A0A0F"/>
-      <path d="M0,80 L0,25 Q60,18 120,28 T240,22 Q300,30 360,20 T480,26 Q540,18 600,28 T720,22 Q780,30 840,20 T960,26 Q1020,18 1080,28 T1200,22 L1200,80" fill="#0A0A0F" stroke="url(#aboutValuesRimLight)" stroke-width="2"/>
+      <path d="M0,80 L0,25 Q60,18 120,28 T240,22 Q300,30 360,20 T480,26 Q540,18 600,28 T720,22 Q780,30 840,20 T960,26 Q1020,18 1080,28 T1200,22 L1200,80 Z" fill="#0A0A0F"></path>
+      <path d="M0,80 L0,25 Q60,18 120,28 T240,22 Q300,30 360,20 T480,26 Q540,18 600,28 T720,22 Q780,30 840,20 T960,26 Q1020,18 1080,28 T1200,22 L1200,80" fill="#0A0A0F" stroke="url(#aboutValuesRimLight)" stroke-width="2"></path>
     </svg>
   </div>
 </section>
@@ -1008,13 +1008,13 @@
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="lightLeakFade" x1="0%" y1="0%" x2="0%" y2="100%">
-          <stop offset="0%" stop-color="#0A0A0F" stop-opacity="0"/>
-          <stop offset="50%" stop-color="#0A0A0F" stop-opacity="0.3"/>
-          <stop offset="100%" stop-color="#0A0A0F" stop-opacity="1"/>
+          <stop offset="0%" stop-color="#0A0A0F" stop-opacity="0"></stop>
+          <stop offset="50%" stop-color="#0A0A0F" stop-opacity="0.3"></stop>
+          <stop offset="100%" stop-color="#0A0A0F" stop-opacity="1"></stop>
         </linearGradient>
       </defs>
-      <rect x="0" y="0" width="1200" height="80" fill="url(#lightLeakFade)"/>
-      <path d="M0,80 L0,60 Q150,50 300,55 T600,48 Q750,52 900,45 T1200,50 L1200,80 Z" fill="#111118" opacity="0.4"/>
+      <rect x="0" y="0" width="1200" height="80" fill="url(#lightLeakFade)"></rect>
+      <path d="M0,80 L0,60 Q150,50 300,55 T600,48 Q750,52 900,45 T1200,50 L1200,80 Z" fill="#111118" opacity="0.4"></path>
     </svg>
   </div>
 </section>
@@ -1033,7 +1033,7 @@
       <div class="about-reviews-card">
         <div class="about-reviews-card-icon" aria-hidden="true">
           <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-2.335 1.091-3.99 3.44-4.259 5.457.21-.04.434-.063.67-.063 1.934 0 3.5 1.544 3.5 3.478C9.834 17.067 8.267 18.667 6.333 18.667c-1.267 0-2.09-.522-2.75-1.346h.001zm9.334 0c-1.03-1.094-1.584-2.321-1.584-4.31 0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-2.335 1.091-3.99 3.44-4.259 5.457.21-.04.434-.063.67-.063 1.934 0 3.5 1.544 3.5 3.478 0 1.994-1.567 3.594-3.5 3.594-1.267 0-2.09-.522-2.75-1.346z" fill="currentColor"/>
+            <path d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-2.335 1.091-3.99 3.44-4.259 5.457.21-.04.434-.063.67-.063 1.934 0 3.5 1.544 3.5 3.478C9.834 17.067 8.267 18.667 6.333 18.667c-1.267 0-2.09-.522-2.75-1.346h.001zm9.334 0c-1.03-1.094-1.584-2.321-1.584-4.31 0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-2.335 1.091-3.99 3.44-4.259 5.457.21-.04.434-.063.67-.063 1.934 0 3.5 1.544 3.5 3.478 0 1.994-1.567 3.594-3.5 3.594-1.267 0-2.09-.522-2.75-1.346z" fill="currentColor"></path>
           </svg>
         </div>
         <h3 class="about-reviews-card-title">"הכלבים שלי מחכים לו כל בוקר"</h3>
@@ -1049,9 +1049,9 @@
       <!-- ROUTE LINE DIVIDER -->
       <div class="about-reviews-route-line" aria-hidden="true">
         <svg data-no-icon-edit="true" aria-hidden="true" width="100%" height="24" viewBox="0 0 1200 24" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-          <line x1="0" y1="12" x2="1200" y2="12" stroke="var(--border-dark)" stroke-width="1.5" stroke-dasharray="6 6"/>
-          <circle cx="600" cy="12" r="6" fill="var(--primary)" stroke="var(--primary)" stroke-width="2" opacity="0.9"/>
-          <circle cx="600" cy="12" r="12" fill="none" stroke="var(--primary)" stroke-width="1" opacity="0.4"/>
+          <line x1="0" y1="12" x2="1200" y2="12" stroke="var(--border-dark)" stroke-width="1.5" stroke-dasharray="6 6"></line>
+          <circle cx="600" cy="12" r="6" fill="var(--primary)" stroke="var(--primary)" stroke-width="2" opacity="0.9"></circle>
+          <circle cx="600" cy="12" r="12" fill="none" stroke="var(--primary)" stroke-width="1" opacity="0.4"></circle>
         </svg>
       </div>
 
@@ -1059,7 +1059,7 @@
       <div class="about-reviews-card">
         <div class="about-reviews-card-icon" aria-hidden="true">
           <svg data-element-type="icon" data-icon-type="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-2.335 1.091-3.99 3.44-4.259 5.457.21-.04.434-.063.67-.063 1.934 0 3.5 1.544 3.5 3.478C9.834 17.067 8.267 18.667 6.333 18.667c-1.267 0-2.09-.522-2.75-1.346h.001zm9.334 0c-1.03-1.094-1.584-2.321-1.584-4.31 0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-2.335 1.091-3.99 3.44-4.259 5.457.21-.04.434-.063.67-.063 1.934 0 3.5 1.544 3.5 3.478 0 1.994-1.567 3.594-3.5 3.594-1.267 0-2.09-.522-2.75-1.346z" fill="currentColor"/>
+            <path d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-2.335 1.091-3.99 3.44-4.259 5.457.21-.04.434-.063.67-.063 1.934 0 3.5 1.544 3.5 3.478C9.834 17.067 8.267 18.667 6.333 18.667c-1.267 0-2.09-.522-2.75-1.346h.001zm9.334 0c-1.03-1.094-1.584-2.321-1.584-4.31 0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-2.335 1.091-3.99 3.44-4.259 5.457.21-.04.434-.063.67-.063 1.934 0 3.5 1.544 3.5 3.478 0 1.994-1.567 3.594-3.5 3.594-1.267 0-2.09-.522-2.75-1.346z" fill="currentColor"></path>
           </svg>
         </div>
         <h3 class="about-reviews-card-title">"שירות מקצועי ויחס אישי שאין שני לו"</h3>
@@ -1083,7 +1083,7 @@
   <div class="footer-container">
     <div class="footer-grid">
       <div class="footer-col footer-company-col">
-        <img src="/assets/dodwoker-pet-services-logo.webp" alt="Dodwoker בעמ" class="logo">
+        <img src="/assets/dodwoker-pet-services-logo.webp" alt="Dogwoker בעמ" class="logo">
         <p class="footer-tagline">השותף המושלם לחיים עירוניים עם הכלב שלך. טיולים, אילוף וליווי מקצועי – אנחנו דואגים לחבר הכי טוב שלך.</p>
       </div>
       <div class="footer-col footer-links-col">
@@ -1100,35 +1100,33 @@
         <ul class="footer-contact">
           <li>
             <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-            <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
+            <span class="contact-text"><a href="mailto:rplmykl912@gmail.com">rplmykl912@gmail.com</a></span>
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone"></i></span>
-            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+            <span class="contact-text"><a href="tel:+972527701418">+972527701418</a></span>
           </li>
-          <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-            <span class="contact-text">[business_address]</span></a></li>
+          <li><a href="https://www.google.com/maps/search/?api=1&amp;query=%D7%94%D7%A8%D7%A6%D7%99%D7%94%20%D7%A7%D7%95%D7%A7%20%D7%99%D7%95%D7%A0%D7%99%20%D7%A0%D7%AA%D7%A0%D7%99%D7%94%D7%95%2C%20%D7%A7%D7%A8%D7%99%D7%AA%20%D7%90%D7%A8%D7%91%D7%A2%2C%20%D7%90%D7%99%D7%95%D7%A9%2C%209010000%2C%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C" target="_blank" rel="noopener noreferrer"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+            <span class="contact-text">הרציה קוק יוני נתניהו, קרית ארבע, איוש, 9010000, ישראל</span></a></li>
         </ul>
       </div>
       <div class="footer-col footer-hours-col">
         <h4>שעות פעילות</h4>
-        <ul class="footer-hours">
-          <li><a href="/"><span class="hours-day">ימים א'–ה'</span> <span class="hours-time">09:00–18:00</span></a></li>
-          <li><a href="/"><span class="hours-day">יום ו'</span> <span class="hours-time">09:00–13:00</span></a></li>
-          <li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li>
-        </ul>
+        <ul class="footer-hours"><li><a href="/"><span class="hours-day">יום א’</span> <span class="hours-time">סגור</span></a></li>
+<li><a href="/"><span class="hours-day">ימים ב’–ו’</span> <span class="hours-time">09:00–17:00</span></a></li>
+<li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
       </div>
       <div class="footer-col footer-social-col">
         <h4>עקבו אחרינו</h4>
         <div class="footer-social">
-          <a href="#" aria-label="Facebook" data-zappy-social-placeholder="true"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" aria-label="Instagram" data-zappy-social-placeholder="true"><i class="fab fa-instagram"></i></a>
-          <a href="#" aria-label="WhatsApp" data-zappy-social-placeholder="true"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" aria-label="Facebook" data-zappy-social-placeholder="true" style="display:none !important;"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram" data-zappy-social-placeholder="true" style="display:none !important;"><i class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/972500000000" aria-label="WhatsApp" data-zappy-social-placeholder="true"><i class="fab fa-whatsapp"></i></a>
         </div>
       </div>
     </div>
     <div class="footer-bottom">
-      <p class="footer-copyright">© 2026 Dodwoker בעמ. כל הזכויות שמורות.</p>
+      <p class="footer-copyright">© 2026 Dogwoker בעמ. כל הזכויות שמורות.</p>
       <div class="footer-legal">
         <a href="/privacy">מדיניות פרטיות</a>
         <a href="/terms">תנאי שימוש</a>
@@ -1139,7 +1137,7 @@
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/972500000000" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   

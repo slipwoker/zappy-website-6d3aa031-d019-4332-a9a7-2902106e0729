@@ -1,4 +1,4 @@
-# Dodwoker בעמ — Generative Engine Optimization Map
+# Dogwoker בעמ — Generative Engine Optimization Map
 
 > A dog walking service business looking to establish an online presence. The service involves taking dogs out for walks, likely targeting pet owners who need assistance with their dogs' daily exercise and outdoor needs.
 
@@ -44,7 +44,10 @@ Information about WCAG compliance and accessibility features.
 
 ## How to Contact Us
 
-- (No contact details configured yet.)
+- Email: rplmykl912@gmail.com
+- Phone: +972527701418
+- Phone (tel): tel:+972527701418
+- Address: הרציה קוק יוני נתניהו, קרית ארבע, איוש, 9010000, ישראל
 
 ### Contact form
 - URL: https://example.com/contact
@@ -52,17 +55,17 @@ Information about WCAG compliance and accessibility features.
 - Method: POST
 - Content-Type: application/json
 - Fields:
-  - `name` (text)
-  - `phone` (tel)
-  - `email` (email)
-  - `message` (textarea)
-  - `privacy_consent` (checkbox)
+  - `name` (text, required)
+  - `phone` (tel, required)
+  - `email` (email, required)
+  - `message` (textarea, required)
+  - `privacy_consent` (checkbox, required)
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Dodwoker בעמ
+## About Dogwoker בעמ
 A dog walking service business looking to establish an online presence. The service involves taking dogs out for walks, likely targeting pet owners who need assistance with their dogs' daily exercise and outdoor needs.
 
 ## Services/Products
